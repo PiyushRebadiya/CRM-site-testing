@@ -1,0 +1,324 @@
+#pricingPlan {
+    .slider-container {
+        .slider {
+            width: 100%;
+            height: 500px;
+            background-color: aqua;
+        }
+    }
+
+    .bg-o-color-8 {
+        --bg-opacity: 1;
+        background-color: rgb(27, 182, 249) !important;
+    }
+
+    .card-header,
+    .panel-heading {
+        padding: 0.75rem 1.5rem;
+        margin-bottom: 0;
+        background-color: transparent;
+        border-bottom: 0 solid #D8DADD;
+    }
+
+    .card-body,
+    .well,
+    .panel-body {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        color: #111827;
+    }
+
+    .card-body,
+    .well,
+    .panel-body {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .text-o-color-8 {
+        color: #1BB6F9 !important;
+    }
+
+    .o_pricing16_price {
+        font-size: 4.125rem;
+        line-height: 1;
+    }
+
+    #o_pricing16_box_oneapp {
+        h3 {
+            font-size: 32px;
+        }
+    }
+
+    .link-text {
+        color: #2a1bf9 !important;
+        text-decoration: underline !important;
+    }
+
+    .list-group {
+        border-top: none !important;
+
+        .list-group-item {
+            font-size: 16px;
+        }
+    }
+
+    .list-group-flush {
+        margin-bottom: 20px;
+    }
+
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: 0.5rem 1.5rem;
+        color: #374151;
+        background-color: #FFF;
+        border: 1px solid #D8DADD;
+    }
+
+    .pricingModel {
+        padding: 0 30px;
+    }
+
+    .hrmModule {
+
+        a.text-primary:focus,
+        a.text-primary:hover {
+            color: white !important;
+        }
+
+        .text-o-color-8 {
+            color: rgb(252, 120, 125) !important;
+        }
+
+        .bg-o-color-8 {
+            --bg-opacity: 1;
+            background-color: rgb(252, 120, 125) !important;
+        }
+
+        .text-primary {
+            background-color: rgb(252, 120, 125) !important;
+            border: none;
+        }
+    }
+
+    .crmModule {
+        a.text-primary:focus, a.text-primary:hover {
+            color: white !important;
+        }
+        .text-o-color-8 {
+            color: rgb(27, 182, 249) !important;
+        }
+    
+        .bg-o-color-8 {
+            --bg-opacity: 1;
+            background-color: rgb(27, 182, 249) !important;
+        }
+    
+        .text-primary {
+            background-color: rgb(27, 182, 249) !important;
+            border: none;
+        }
+    }
+    .remove-plan-bg {
+        background-color: #6c757d !important;
+        border: none;
+    }
+
+    .taxManagementModule {
+
+        a.text-primary:focus,
+        a.text-primary:hover {
+            color: white !important;
+        }
+
+        .text-o-color-8 {
+            color: rgb(0, 206, 179) !important;
+        }
+
+        .bg-o-color-8 {
+            --bg-opacity: 1;
+            background-color: rgb(0, 206, 179) !important;
+        }
+
+        .text-primary {
+            background-color: rgb(0, 206, 179) !important;
+            border: none;
+        }
+    }
+
+    .pricingCalculation {
+        .text-primary {
+            color: rgb(25, 135, 84) !important;
+        }
+
+        .border-top-none {
+            border-top: none !important;
+        }
+
+        .activePlanTitle {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .font-initial {
+            font-size: initial;
+            font-weight: 400;
+        }
+    }
+
+    .text-wrap-balance {
+        text-wrap: balance;
+    }
+
+    .check-icon {
+        height: 15px;
+        width: 17px;
+        /* align-self: baseline;
+        margin-top: 5px !important; */
+    }
+
+    .title-container {
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 150, 136, 0.2);
+    }
+
+    .title {
+        color: #0F0F0F;
+        font-size: xx-large;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .discountText {
+        text-decoration: red line-through !important;
+    }
+
+    .text-color {
+        color: #009688;
+    }
+}
+.upi-modal-footer {
+    padding-bottom: 30px;
+    max-width: 525px;
+    margin: auto;
+    padding: 0 30px 0;
+}
+
+.grid-upi-form {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+}
+
+.grid-upi-form input[type=text] {
+    height: 45px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background: #eee;
+    text-align: center;
+}
+
+.grid-upi-form input[type=number] {
+    height: 45px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background: #eee;
+    text-align: center;
+}
+
+.grid-upi-form button {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#BtnGpay {
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #1C3767;
+    padding: 7px 16px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    height: 45px;
+}
+
+@media(max-width:768px) {
+    #pricingPlan {
+        .pricingCalculation {
+            padding: 20px 50px 20px 50px;
+        }
+
+        .pricingModel {
+            padding-top: 20px;
+            margin-left: 20px;
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width:425px) {
+    #pricingPlan {
+
+        .pricingCalculation {
+            padding: 40px 0px 40px 30px;
+        }
+    }
+}
+
+@media(min-width:769px) {
+    #pricingPlan {
+        .pricingCalculation {
+            padding: 20px 50px 20px 50px;
+        }
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #pricingPlan {
+        .showing-upper-1000 {
+            display: none;
+        }
+
+        .showing-inner-1000 {
+            display: block;
+
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    #pricingPlan {
+        .showing-upper-1000 {
+            display: block;
+        }
+
+        .showing-inner-1000 {
+            display: none;
+
+        }
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
